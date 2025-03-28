@@ -60,7 +60,7 @@ vips_height('name')
 
 ### Dependencies - MacOS
 ```
-brew install vips cmake
+brew install vips cmake pkg-config glib fmt
 ```
 
 ### Dependencies - Ubuntu

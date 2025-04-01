@@ -6362,7 +6362,7 @@ return reinterpret_cast<expression_ptr>(0);
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const exprtk_final
@@ -6422,7 +6422,7 @@ return reinterpret_cast<expression_ptr>(0);
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -6485,7 +6485,7 @@ return expression_node<T>::e_trinary;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const exprtk_final
@@ -6529,7 +6529,7 @@ return expression_node<T>::e_quaternary;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const exprtk_final
@@ -7819,7 +7819,7 @@ return (*vector_holder_);
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(index_, node_delete_list);
+expression_node<T>::ndb_t::collect(index_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -12022,7 +12022,7 @@ return expression_node<T>::e_function;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -15524,7 +15524,7 @@ return branch_.first;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -15580,7 +15580,7 @@ return branch_.first;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -15647,7 +15647,7 @@ return branch_.first;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -15714,7 +15714,7 @@ return branch_.first;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const
@@ -16281,7 +16281,7 @@ return expression_node<T>::e_ipowinv;
 
 void collect_nodes(typename expression_node<T>::noderef_list_t& node_delete_list)
 {
-expression_node<T>::ndb_t::template collect(branch_, node_delete_list);
+expression_node<T>::ndb_t::collect(branch_, node_delete_list);
 }
 
 std::size_t node_depth() const

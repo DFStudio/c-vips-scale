@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.20)
 project(vips-tool
         VERSION 1.1.1
         DESCRIPTION "A utility for processing images with vips"

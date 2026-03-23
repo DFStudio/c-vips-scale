@@ -7,7 +7,7 @@
 #include "operations.h"
 #include <limits>
 #include <exception>
-#include <fmt/core.h>
+#include <fmt/format.h>
 #include "unsharp.h"
 #include "phash.h"
 

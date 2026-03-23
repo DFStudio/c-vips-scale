@@ -6,7 +6,7 @@
 
 #include <exception>
 #include <utility>
-#include <fmt/core.h>
+#include <fmt/format.h>
 #include <sys/fcntl.h>
 
 void MachineState::set_image(const std::string &name, vips::VImage image) {

@@ -7,7 +7,7 @@
 #include <iostream>
 #include <utility>
 #include <exception>
-#include <fmt/core.h>
+#include <fmt/format.h>
 
 Arguments::Arguments(int index, std::string operation, docopt_map arguments, MachineState *state)
         : index(index), operation(std::move(operation)), arguments(std::move(arguments)), state(state) {}
